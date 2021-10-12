@@ -301,7 +301,7 @@
     let productPrice = product.querySelector(".product-price-value")
       .textContent;
     let productImgSrc = product
-      .querySelector(".product-img lazy")
+      .querySelector(".product-img")
       .getAttribute("src");
 
     order
